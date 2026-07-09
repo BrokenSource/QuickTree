@@ -1,0 +1,15 @@
+[project]
+name        = "quicktree"
+description = "🌲 Fast interval trees"
+version     = "0.1.0"
+license     = "MIT"
+readme      = "readme.md"
+requires-python = ">=3.10"
+dependencies = ["attrs"]
+
+[project.urls]
+GitHub = "https://github.com/BrokenSource/QuickTree"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
