@@ -1,10 +1,10 @@
 [project]
 name        = "quicktree"
-description = "🌲 Fast interval trees"
+description = "🌲 Fast interval trees for python"
 version     = "0.1.0"
 license     = "MIT"
 readme      = "readme.md"
-requires-python = ">=3.10"
+requires-python = ">=3.12" # PEP 695
 dependencies = ["attrs"]
 
 [project.urls]
