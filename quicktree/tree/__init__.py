@@ -8,7 +8,7 @@ from quicktree.interval import Interval
 
 
 @define
-class IntervalTree[T: Any](ABC):
+class IntervalTree[T](ABC):
     """Trait that all interval trees must implement"""
 
     @abstractmethod
